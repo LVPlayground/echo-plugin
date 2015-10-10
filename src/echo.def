@@ -1,0 +1,7 @@
+LIBRARY    "Echo"
+EXPORTS
+    Supports
+    Load
+    Unload
+    AmxLoad
+    AmxUnload
