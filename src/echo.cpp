@@ -5,6 +5,9 @@
 #include "sdk/amx.h"
 #include "sdk/plugincommon.h"
 
+#include <string.h>
+#include <string>
+
 #ifdef WIN32
 #include <windows.h>
 #pragma comment(lib, "ws2_32.lib")
@@ -21,8 +24,6 @@ typedef int socket_t;
 #endif
 
 typedef void (*logprintf_t)(char* format, ...);
-#include <malloc.h>
-#include <string>
 
 logprintf_t logprintf;
 void **ppPluginData;
