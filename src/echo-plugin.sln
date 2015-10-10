@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 14 for Windows Desktop
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echo-plugin", "HelloWorld.vcxproj", "{42578DE1-3BB3-456A-989F-BBA1D3618BFF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echo-plugin", "echo-plugin.vcxproj", "{42578DE1-3BB3-456A-989F-BBA1D3618BFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
