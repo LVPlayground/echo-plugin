@@ -12,4 +12,4 @@ COMPILE_FLAGS=-c -m32 -fPIC -O3 -w -DLINUX -DHAVE_STDINT_H -I.
 all:
 	g++ $(COMPILE_FLAGS) sdk/amxplugin.cpp -o out/amxplugin.o
 	g++ $(COMPILE_FLAGS) echo.cpp -o out/echo.o
-	g++ -O2 -m32 -fshort-wchar -shared -o out/$(OUTFILE) out/*.o
+	g++ -O2 -m32 -fshort-wchar -Wl,--export-dynamic -shared -o out/$(OUTFILE) out/*.o
